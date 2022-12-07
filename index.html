@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Slideshow</title>
+
+		<link rel="stylesheet" href="./css/reset.css">
+		<link rel="stylesheet" href="./css/variables.css">
+		<link rel="stylesheet" href="./css/style.css">
+	</head>
+
+	<body>
+		<header class="header">
+			<h1 class="header__headline">
+				Slidin through Norway
+			</h1>
+			
+			<button class="header__button">
+				More topics
+			</button>
+
+			<nav class="header__navigation">
+				<ul class="navigation__list">
+					<li class="navigation__list-item">Home</li>
+					<li class="navigation__list-item">About</li>
+					<li class="navigation__list-item">More slideshows</li>
+				</ul>
+			</nav>
+		</header>
+
+		<section class="slideshow">
+			<div class="slideshow__controls">
+				<button class="slideshow__button-previous">
+					<img src="./assets/previous-arrow.svg">
+				</button>
+
+				<button class="slideshow__button-next">
+					<img src="./assets/next-arrow.svg">
+				</button>
+			</div>
+
+			<div class="slideshow__slides">
+				<figure class="slideshow__slide slideshow__slide--active">
+					<img class="slideshow__img" src="./assets/1.jpg" alt="">
+					<figcaption class="slideshow__caption">Text1</figcaption>
+				</figure>
+
+				<figure class="slideshow__slide">
+					<img class="slideshow__img" src="./assets/2.jpg" alt="">
+					<figcaption class="slideshow__caption">Text2</figcaption>
+				</figure>
+
+				<figure class="slideshow__slide">
+					<img class="slideshow__img" src="./assets/3.jpg" alt="">
+					<figcaption class="slideshow__caption">Text3</figcaption>
+				</figure>
+
+				<figure class="slideshow__slide">
+					<img class="slideshow__img" src="./assets/4.jpg" alt="">
+					<figcaption class="slideshow__caption">Text4</figcaption>
+				</figure>
+
+				<figure class="slideshow__slide">
+					<img class="slideshow__img" src="./assets/5.jpg" alt="">
+					<figcaption class="slideshow__caption">Text5</figcaption>
+				</figure>
+			</div>
+
+			<div class="slideshow__dots">
+				<button class="slideshow__button-dot slideshow__button-dot--active"></button>
+				<button class="slideshow__button-dot"></button>
+				<button class="slideshow__button-dot"></button>
+				<button class="slideshow__button-dot"></button>
+				<button class="slideshow__button-dot"></button>
+			</div>
+		</section>
+		
+		<script src="./js/script.js"></script>
+	</body>
+</html>

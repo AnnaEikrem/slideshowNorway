@@ -1,0 +1,1 @@
+This repository contains a slideshow with images of Norway. Created with HTML, CSS and Javascript.
