@@ -25,6 +25,7 @@ body {
 .header__navigation {
 	background: pink;
 	width: 50%;
+	display: none;
 }
 
 
